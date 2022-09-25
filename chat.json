@@ -1,0 +1,18 @@
+{
+    "sessions": [
+        {
+            "pattern": "Benim adım (.*)",
+            "response": [
+                "Selam %1.",
+                "Merhaba %1! Tanıştığımıza memnun oldum.",
+                "Merhaba %1, nasılsın?"
+            ]
+        },
+        {
+            "pattern": "(.*) nedir?",
+            "response": [
+                "%1 nedir mi?"
+            ]
+        }
+    ]
+}
